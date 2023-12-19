@@ -1,0 +1,90 @@
+
+body {
+  font-family:  Arial;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#colorPicker {
+  display: block;
+  margin: 20px auto;
+}
+
+#colorDetails {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.text-example {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+#opacityVariants > div {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#hueChart table, #lightnessChart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+#hueChart th, #lightnessChart th {
+  background: #555;
+  color: #fff;
+  padding: 10px;
+}
+
+#hueChart td, #lightnessChart td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#hueChart tr:nth-child(even), #lightnessChart tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+#saturationChart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+#saturationChart th {
+  background: #555;
+  color: #fff;
+  padding: 10px;
+}
+
+#saturationChart td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#saturationChart tr:nth-child(even) {
+  background: #f9f9f9;
+}
