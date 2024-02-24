@@ -41,4 +41,16 @@ handy tool that can be used to pick out color templates.
 
 ### How to Modify
 
-<!-- this section will be added later -->
+Modifying the Colour Picker & Mixer application is straightforward once you understand the structure and purpose of its key files. Below, you'll find a brief guide on how to customize or enhance the application according to your needs.
+
+#### Structure Overview
+The application consists of several important files spread across two main functionalities: the Colour Picker and the Colour Mixer.
+
+- **Colour Picker:**
+	- `index.html`: The main HTML file for the Colour Picker. Modify it to change the layout or add new elements to the Colour Picker page.
+	- `style.css`: The CSS file containing styles for the Colour Picker. Update this file to change the appearance of the Colour Picker.
+	- `script.js`: The JavaScript file that handles the logic of the Colour Picker. You can update this file to add new features or change how the Colour Picker behaves.
+
+<!-- colour mixer structure -->
+
+<!-- code examples -->
