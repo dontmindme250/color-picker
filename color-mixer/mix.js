@@ -22,7 +22,7 @@ function rgbToHSL(r, g, b){
   let h, s, l = (max + min) / 2;
 
   if(max === min){
-    h = s = 0; // achromatic
+    h = s = 0;
   }else{
     let d = max - min;
     s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
@@ -71,7 +71,7 @@ function displayMixedColors() {
   let table = createTable();
   mixContainer.appendChild(table);
 
-  for (let i = 0; i <= 100; i += (100 / 30)) { // Updated loop to display 30 color cells
+  for (let i = 0; i <= 100; i += (100 / 30)) {
     let row = table.insertRow();
     let mixedColor = blendColors(color1, color2, i);
 
